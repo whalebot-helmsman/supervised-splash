@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 /usr/bin/python3 /app/bin/splash \
     --proxy-profiles-path /etc/splash/proxy-profiles \
     --js-profiles-path /etc/splash/js-profiles \
