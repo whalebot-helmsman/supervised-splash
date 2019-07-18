@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 
-rm /install/splash.pid
+cat /install/splash.pid
 kill 1
