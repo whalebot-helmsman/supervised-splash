@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
 
-cat /install/splash.pid
-kill 1
+/usr/bin/pkill -9 -P `cat /install/splash.pid`
+/bin/kill -9 `cat /install/splash.pid`
+rm /install/splash.pid
