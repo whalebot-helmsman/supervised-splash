@@ -8,5 +8,5 @@ of instance
 * exsessive logging
 * https://github.com/scrapinghub/splash/issues/313 is fixed
 
-Image based on [official image](https://hub.docker.com/r/scrapinghub/splash).
+Image based on [image with CSP fix](https://hub.docker.com/repository/docker/whalebothelmsman/splash).
 Monit is added to monitor for problems and resolving them
