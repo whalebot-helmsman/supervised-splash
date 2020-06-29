@@ -17,4 +17,8 @@ RUN chown splash:splash /tini
 RUN chown splash:splash -R /install
 
 USER splash:splash
-ENTRYPOINT ["/install/init.sh"]
+ENTRYPOINT ["/install/init.sh", \
+    "--proxy-profiles-path /etc/splash/proxy-profiles", \
+    "--js-profiles-path", "/etc/splash/js-profiles", \
+    "--filters-path", "/etc/splash/filters", \
+    "--lua-package-path", "/etc/splash/lua_modules/?.lua" ]
