@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-/tini -- monit -c /install/splash.conf
+/tini -s -- monit -c /install/splash.conf
