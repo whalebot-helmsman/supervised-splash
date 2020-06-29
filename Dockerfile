@@ -1,4 +1,4 @@
-FROM scrapinghub/splash
+FROM whalebothelmsman/splash
 
 USER root
 ENV TINI_VERSION v0.18.0
